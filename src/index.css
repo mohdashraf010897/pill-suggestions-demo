@@ -181,12 +181,11 @@ body {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 16px;
-  min-width: max-content;
   white-space: nowrap;
-  max-width: 200px;
   overflow: hidden;
   text-overflow: ellipsis;
-  flex-grow: 1;
+  flex: 0 0 fit-content;
+  max-width: 250px;
 }
 
 .pill-btn:hover {
