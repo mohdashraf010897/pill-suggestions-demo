@@ -36,18 +36,8 @@ const Main = () => {
             componentId="BookSensor"
             highlight
             URLParams
-            enablePopularSuggestions
-            popularSuggestionsConfig={{
-              size: 3,
-              minChars: 2,
-              index: "good-books-ds",
-            }}
-            enableRecentSuggestions
-            recentSuggestionsConfig={{
-              size: 3,
-              index: "good-books-ds",
-              minChars: 4,
-            }}
+            enablePopularSuggestions={false}
+            enableRecentSuggestions={false}
             size={5}
             index="good-books-ds"
             showClear
